@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    height: 600px;
+    background-color: white;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.border {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    margin: auto;
+}
+
+#darkRed {
+    background-color: rgb(137, 9, 9);
+}
+
+#darkYellow {
+    background-color: rgb(228, 199, 9);
+}
+
+#darkGreen {
+    background-color: rgb(5, 69, 5);
+}
+
+.box {
+    display: flex;
+    width: 85%;
+    background-color: red;
+    height: 85%;
+    margin: auto;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+.redInnerBox {
+    align-self: flex-end;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
+
+.yellowInnerBox {
+    align-self: flex-end;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
+
+.yellowHideBox {
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+}
+
+.greenInnerBox {
+    align-self: flex-end;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
